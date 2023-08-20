@@ -1,7 +1,6 @@
 #############################################################################
 # TERRAFORM CONFIG
 #############################################################################
-
 terraform {
   required_providers {
     azurerm = {
@@ -14,6 +13,22 @@ terraform {
 #############################################################################
 # VARIABLES
 #############################################################################
+variable "ARM_CLIENT_ID" {
+  description = "Azure Subscription ID"
+  type        = string
+}
+variable "ARM_CLIENT_SECRET" {
+  description = "Azure Subscription ID"
+  type        = string
+}
+variable "ARM_SUBSCRIPTION_ID" {
+  description = "Azure Subscription ID"
+  type        = string
+}
+variable "ARM_TENANT_ID" {
+  description = "Azure Subscription ID"
+  type        = string
+}
 
 variable "resource_group_name" {
   type = string
