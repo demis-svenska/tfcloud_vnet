@@ -18,11 +18,11 @@ provider "azurerm" {
 # VARIABLES
 #############################################################################
 variable "ARM_CLIENT_ID" {
-  description = "Azure Subscription ID"
+  description = "Azure client ID"
   type        = string
 }
 variable "ARM_CLIENT_SECRET" {
-  description = "Azure Subscription ID"
+  description = "Azure client secret"
   type        = string
 }
 variable "ARM_SUBSCRIPTION_ID" {
@@ -30,7 +30,7 @@ variable "ARM_SUBSCRIPTION_ID" {
   type        = string
 }
 variable "ARM_TENANT_ID" {
-  description = "Azure Subscription ID"
+  description = "Azure tenant ID"
   type        = string
 }
 
